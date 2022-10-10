@@ -186,7 +186,6 @@ class BoardPageLose(tk.Frame):
         separator.grid(row=3, column=1)
         statement = ttk.Label(self, text="Choose a column", font=med)
         statement.grid(row=4, column=1)
-
         button_a = ttk.Button(self, text="a", command=lambda:
                               self.choose_a(board, buttons, statement), width=1)
         button_b = ttk.Button(self, text="b", command=lambda:
