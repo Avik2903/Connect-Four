@@ -5,7 +5,6 @@ from matplotlib.figure import Figure
 import numpy as np
 matplotlib.use("TkAgg")
 
-
 def makegraphicalboard():
     """
     Makes an empty board with the required dimensions and labels.
